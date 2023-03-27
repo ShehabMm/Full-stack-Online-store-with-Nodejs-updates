@@ -1,0 +1,71 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@100;300;400;500&display=swap');
+
+*{
+
+
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+
+}
+
+
+
+
+.hero {
+
+  width: 100%;
+  height: 80vh;
+  background-image:linear-gradient(rgba(0,0,0,0.7),#3551b5), url('https://res.cloudinary.com/dvytkrzaq/image/upload/v1679720614/online%20store/47_q8c7r3.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+form {
+  width: 90%;
+  max-width: 600px;
+}
+
+.input-group {
+
+  margin-bottom: 30px;
+
+
+}
+
+.input-group input {
+
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 2px solid #161616;
+  background: transparent;
+  font-size: 1em;
+  font-weight: 2000 !important;
+}
+
+
+
+form button {
+
+  font-size: 2em;
+  width: 50px;
+
+}
+
+.row {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row .input-group {
+  flex-basis: 48%;
+}

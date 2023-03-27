@@ -1,0 +1,52 @@
+
+
+
+
+
+
+
+
+
+
+.cart-paper img{
+
+width:70px;
+height: 80px;
+position: absolute;
+z-index: 5;
+right:10px;
+
+}
+
+
+
+
+
+@media(max-width:750px){
+
+
+  .cart-paper{
+width:300px !important;
+
+  }
+
+  .add-remove{
+    margin:0 !important;
+  }
+
+}
+
+
+@media(max-width:315px){
+
+
+  .cart-paper{
+width:150px !important;
+
+  }
+
+  .add-remove{
+    margin:0 !important;
+  }
+
+}

@@ -1,0 +1,21 @@
+html{
+scroll-behavior: smooth;
+
+}
+
+.mains{
+
+height: 40vh;
+width: 100vw;
+margin-bottom: 200px;
+
+}
+
+
+.card:hover{
+rotate:0.5deg;
+scale:1.01;
+transition:0.3s !important;
+
+
+}
